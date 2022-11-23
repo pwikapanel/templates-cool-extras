@@ -14,10 +14,10 @@ sudo mv /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Temp
 ```
 Then link this repo to Illustrator installations:
 ```
-sudo ln -s /Users/Main/Documents/scripts-presets /Applications/Adobe\ Illustrator\ 2020/Cool\ Extras.localized/en_US/Templates
-sudo ln -s /Users/Main/Documents/scripts-presets /Applications/Adobe\ Illustrator\ 2021/Cool\ Extras.localized/en_US/Templates
-sudo ln -s /Users/Main/Documents/scripts-presets /Applications/Adobe\ Illustrator\ 2022/Cool\ Extras.localized/en_US/Templates
-sudo ln -s /Users/Main/Documents/scripts-presets /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates
+sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2020/Cool\ Extras.localized/en_US/Templates
+sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2021/Cool\ Extras.localized/en_US/Templates
+sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2022/Cool\ Extras.localized/en_US/Templates
+sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates
 ```
 
 ---
