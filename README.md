@@ -1,4 +1,4 @@
-*Updated 6 April, 2021*
+*Updated 6 November, 2023*
 
 ![Svija: SVG-based websites built in Adobe Illustrator](http://files.svija.love/github/readme-logo.png?2 "Svija: SVG-based websites built in Adobe Illustrator")
 
@@ -7,19 +7,20 @@
 
 To install, we will set aside the existing templates, then sym-link this repo to the correct location.
 
-Rename the previous scripts folder:
+Rename the previous folders:
 ```
-sudo mv /Applications/Adobe\ Illustrator\ 2020/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2020/Cool\ Extras.localized/en_US/Templates-Prev
-sudo mv /Applications/Adobe\ Illustrator\ 2021/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2021/Cool\ Extras.localized/en_US/Templates-Prev
-sudo mv /Applications/Adobe\ Illustrator\ 2022/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2022/Cool\ Extras.localized/en_US/Templates-Prev
 sudo mv /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates-Prev
-
+sudo mv /Applications/Adobe\ Illustrator\ 2024/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2024/Cool\ Extras.localized/en_US/Templates-Prev
+sudo rm -rf /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates
+sudo rm -rf /Applications/Adobe\ Illustrator\ 2024/Cool\ Extras.localized/en_US/Templates
 ```
-Then link this repo to Illustrator installations:
+Symlink the new folder:
 ```
-sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2020/Cool\ Extras.localized/en_US/Templates
-sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2021/Cool\ Extras.localized/en_US/Templates
-sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2022/Cool\ Extras.localized/en_US/Templates
+repo="Library/Mobile Documents/com~apple~CloudDocs/Repositories/templates-cool-extras"
+# 27 - 2023
+sudo mv /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates-Prev
 sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2023/Cool\ Extras.localized/en_US/Templates
+# 28 - 2024
+sudo mv /Applications/Adobe\ Illustrator\ 2024/Cool\ Extras.localized/en_US/Templates /Applications/Adobe\ Illustrator\ 2024/Cool\ Extras.localized/en_US/Templates-Prev
+sudo ln -s /Users/Main/Documents/templates-cool-extras /Applications/Adobe\ Illustrator\ 2024/Cool\ Extras.localized/en_US/Templates
 ```
-
