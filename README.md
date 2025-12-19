@@ -1,6 +1,7 @@
-*Updated 6 November, 2023*
 
-![Svija: SVG-based websites built in Adobe Illustrator](http://files.svija.love/github/readme-logo.png?2 "Svija: SVG-based websites built in Adobe Illustrator")
+*Updated 19 December, 2025*
+
+![Pwika: SVG-based websites built in Adobe Illustrator](http://files.pwika.com/github/github_banner.png "Pwika: SVG-based websites built in Adobe Illustrator")
 
 
 ### templates-cool-extras
